@@ -1,6 +1,10 @@
 import './App.css';
 import React,{useState} from 'react';
-
+/*What is eval () function?
+The Eval function evaluates the string expression and returns its value.
+ For example, Eval("1 + 1") returns 2.
+  If you pass to the Eval function a string that contains the name of a function, 
+  the Eval function returns the return value of the function */
 function App() {
   const [result, setResult]=useState("");
 
